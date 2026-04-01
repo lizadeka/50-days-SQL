@@ -22,9 +22,9 @@ Successfully completed project setup. Ready to start data cleaning and analysis 
 ### Objective
 Prepare the dataset for analysis by identifying data quality issues and setting up cleaned tables for further processing.
 
-Tasks Completed
-Created separate cleaned tables to avoid modifying the raw dataset
-Identified NULL values across all tables
+### Tasks Completed
+- Created separate cleaned tables to avoid modifying the raw dataset
+- Identified NULL values across all tables
 
 ### Tools Used
 MySQL / PostgreSQL
