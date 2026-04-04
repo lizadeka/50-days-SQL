@@ -4,7 +4,6 @@ use 50_days_sql;
 
 -- employees table
 
-
 with cte as (
     select *, row_number() over (partition by emp_id, emp_name, city
     order by emp_id) as rn
@@ -18,6 +17,39 @@ where emp_id in (select emp_id from cte where rn>1);
 insert into cleaned_employees
 select * from employees;
 
+-- add unique id
+
+ALTER TABLE cleaned_employees
+ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY;
+select * from cleaned_employees;
+
+-- provide row number based on unique id and identify duplicates
+
+WITH cte AS (
+    SELECT id, emp_id, emp_name, city,
+           ROW_NUMBER() OVER (
+               PARTITION BY emp_id, emp_name, city
+               ORDER BY id
+           ) AS rn
+    FROM cleaned_employees
+)
+SELECT * FROM cte;
+
+
+-- delete duplicate rows only 
+
+DELETE FROM cleaned_employees
+WHERE id IN (
+    SELECT id FROM (
+        SELECT id,
+               ROW_NUMBER() OVER (
+                   PARTITION BY emp_id, emp_name, city
+                   ORDER BY id
+               ) AS rn
+        FROM cleaned_employees
+    ) temp
+    WHERE rn > 1
+);
 
 -- salaries table
 
