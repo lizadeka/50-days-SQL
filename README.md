@@ -115,7 +115,6 @@ Identify and handle extreme values (outliers) in the dataset.
 ### Outcome
 Outliers are properly identified and handled, ensuring both accuracy and meaningful insights.
 
-
 ## Day 7: Data Cleaning
 
 ### Objective: Date format fixing
@@ -124,3 +123,11 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Replaced incorrect dates with NULL to avoid misleading data
 - Standardized all valid dates into a uniform format (YYYY-MM-DD)
 - Ensured consistency across all date-related columns
+
+## Day 8: Data Cleaning
+- Identified leading and trailing spaces in emp_name column
+- Removed unwanted spaces using TRIM() to ensure consistency
+- Checked data types across all tables (employees, departments, salary, performance, attendance)
+- Detected incorrect data types affecting joins and analysis
+- Converted columns to appropriate data types (INT, VARCHAR, DATE, DECIMAL)
+- Ensured uniform structure across all tables for accurate querying****
