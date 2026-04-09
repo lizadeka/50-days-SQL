@@ -131,3 +131,10 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Detected incorrect data types affecting joins and analysis
 - Converted columns to appropriate data types (INT, VARCHAR, DATE, DECIMAL)
 - Ensured uniform structure across all tables for accurate querying****
+
+## Day 9: SQL Tasks
+- Show only employees who have a valid department
+- Show all employees (even without department)
+- Find employees without department
+- Find who earns how much
+- List employees without salary
