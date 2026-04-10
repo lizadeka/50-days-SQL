@@ -144,3 +144,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Identified employees who do not have salary records
 - Detected employees without attendance data
 - Combined employee name, department, and salary in one view
+
+## Day 11: SQL Tasks
+- Retrieved employee name, department  and performance rating for each employee
+- Retrieved complete profile of each employee
+- How many salary records are there for each employee?
+- Total salary paid to each employee
