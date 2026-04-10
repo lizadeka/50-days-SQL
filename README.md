@@ -133,8 +133,14 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Ensured uniform structure across all tables for accurate querying****
 
 ## Day 9: SQL Tasks
-- Show only employees who have a valid department
-- Show all employees (even without department)
-- Find employees without department
-- Find who earns how much
-- List employees without salary
+- Showed only employees who belong to a valid department
+- Included all employees even if department data is missing
+- Identified employees who are not assigned to any department
+- Mapped employees with their salary details
+- Detected employees whose salary data is missing
+
+## Day 10: SQL Tasks
+- Retrieved performance ratings of each employee
+- Identified employees who do not have salary records
+- Detected employees without attendance data
+- Combined employee name, department, and salary in one view
