@@ -150,3 +150,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Retrieved complete profile of each employee
 - How many salary records are there for each employee?
 - Total salary paid to each employee
+
+## Day 12: SQL Tasks
+- Retrieved average salary for each department
+- Counted how many days each employee was present
+- Which employee belongs to same department?
+- Counted which employee has more than 1 salary record
