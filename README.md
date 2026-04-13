@@ -156,3 +156,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Counted how many days each employee was present
 - Which employee belongs to same department?
 - Counted which employee has more than 1 salary record
+
+## Day 13: SQL Tasks
+- List employees earning more than average salary
+- List employees with salary equal to maximum salary
+- List employees earning less than average salary
+- List employees with minimum salary
