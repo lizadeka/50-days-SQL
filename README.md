@@ -179,3 +179,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Calculate average salary of each employee
 - Count number of salary records for each employee
 - Find maximum salary received by each employee
+
+## Day 17: SQL Tasks
+- Find the employees with more than 2 salary records
+- Find the department wih more than 3 employees
+- Find the employees whoso total salary is greater than 1,00,000
+- Find the department with high average salary (>50,000)
