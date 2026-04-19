@@ -185,3 +185,21 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Find the department wih more than 3 employees
 - Find the employees whoso total salary is greater than 1,00,000
 - Find the department with high average salary (>50,000)
+
+## Day 18: SQL Tasks
+- Employees whose avg performance rating > 4
+- Employees whose attendance is greater than 2 days
+- Departements where total salary paid > 2,00,000
+- Employee whose total salary > department avg salary
+
+## Day 19: SQL Tasks(Case statement)
+- Salary category(Low (<30,000), Medium(30,000-60,000), High(>60,000))
+- Performance category(Good (>=4), Average(>=3), else Poor)
+- Attendance status category(Status = Present -> Active else Inactive)
+- Experience category(Fresher (<2 years), Mid(2-5 years), Experienced(>7 years))
+
+## Day 20: SQL Tasks(Window functions)
+- Latest Salary of each employee
+- First salary of each employee
+- Ranking per employee(rank salary entries for each employee)
+- Top 2 salary records per employee
