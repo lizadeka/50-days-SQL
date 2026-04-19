@@ -185,3 +185,21 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Find the department wih more than 3 employees
 - Find the employees whoso total salary is greater than 1,00,000
 - Find the department with high average salary (>50,000)
+
+## Day 18: SQL Tasks
+-
+-
+-
+-
+
+## Day 19: SQL Tasks(Case statement)
+-
+-
+-
+-
+
+## Day 20: SQL Tasks(Window functions)
+-
+-
+-
+-
