@@ -193,10 +193,10 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 -
 
 ## Day 19: SQL Tasks(Case statement)
--
--
--
--
+- Salary category(Low (<30,000), Medium(30,000-60,000), High(>60,000))
+- Performance category(Good (>=4), Average(>=3), else Poor)
+- Attendance status category(Status = Present -> Active else Inactive)
+- Experience category(Fresher (<2 years), Mid(2-5 years), Experienced(>7 years))
 
 ## Day 20: SQL Tasks(Window functions)
 -
