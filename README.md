@@ -203,3 +203,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - First salary of each employee
 - Ranking per employee(rank salary entries for each employee)
 - Top 2 salary records per employee
+
+## Day 21: SQL Tasks(Rank, Dense rank)
+- Rank of employees based on their salary
+- Department wise ranking (rank employee inside each department)
+- Top performer (calculate avg rating -> rank)
+- Salary ranking (Top 3)
