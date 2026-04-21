@@ -209,3 +209,8 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Department wise ranking (rank employee inside each department)
 - Top performer (calculate avg rating -> rank)
 - Salary ranking (Top 3)
+
+## Day 22: SQL Tasks
+- Department avg salary (each employee with avg salary of their department)
+- Total salary of each department(emp_id, dept_id, salary)
+- Average performance of each department (emp_id, dept_id)
