@@ -229,5 +229,9 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Salary running total (cumulative salary for each employee over time)
 - Attendance running count (find total attendance count over time)
 - Department cumulative salary(Total salary accumulated over each department over time)
--
--
+
+## Day 26: SQL Tasks
+- Find rank of each employee based on their salary within their department
+- Compare each employee's salary to the average salary of their department(salary > avg - above average, salary < avg - below average)
+- Find top 3 highest paid employees in each department
+- Find lowest salary employee in each department
