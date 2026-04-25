@@ -214,3 +214,20 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Department avg salary (each employee with avg salary of their department)
 - Total salary of each department(emp_id, dept_id, salary)
 - Average performance of each department (emp_id, dept_id)
+
+## Day 23: SQL Tasks
+- Data of current salary and previous salaries
+- Difference between current salary and previous salary
+- Attendance trend of each employee(whether attendance is improving or declining)
+
+## Day 24: SQL Tasks
+- Show comparison of current and next salary
+- Growth analysis : Compare current salary with next salary to determine if there is growth or decline
+- Trend prediction : Comparing today's attendance with next day's attendance to predict if the trend is improving or declining
+
+## Day 25: SQL Tasks
+- Salary running total (cumulative salary for each employee over time)
+- Attendance running count (find total attendance count over time)
+- Department cumulative salary(Total salary accumulated over each department over time)
+-
+-
