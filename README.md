@@ -235,3 +235,14 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Compare each employee's salary to the average salary of their department(salary > avg - above average, salary < avg - below average)
 - Find top 3 highest paid employees in each department
 - Find lowest salary employee in each department
+
+## Day 27: SQL Tasks
+- To compare each employee's salary to overall average salary(> avg → Above Avg, < avg → Below Avg,= avg → Equal)
+- Compare employee salary with total salary of all employees(salary > 10% of total salary → High Contributor, else → Low Contributor)
+- Compare department total salary with overall total salary(dept total > 30% of total → High Dept, else → Low Dept)
+
+## Day 28: SQL Tasks
+- Top 2 highest paid employees in each department
+- Calculate salary gap (diff between current salary and previous salary)
+- Calculate performance gap(change in performance between years)
+- Filter only top performers based on salary
