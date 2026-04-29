@@ -246,3 +246,14 @@ Outliers are properly identified and handled, ensuring both accuracy and meaning
 - Calculate salary gap (diff between current salary and previous salary)
 - Calculate performance gap(change in performance between years)
 - Filter only top performers based on salary
+
+## Day 29: SQL Tasks
+- Find latest salary per employee along with total salary till that point
+- Rank employees based on salary and compare with department average salary
+- Check whether salary has increased or decreased compared to previous record
+
+## Day 30: SQL Tasks
+- Create a temporary result set using CTE and filter data from it
+- Combine employee table and salaries table using CTE
+- Calculate department avg salary using CTE
+- Find employees earning more than dept avg using CTE
